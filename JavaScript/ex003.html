@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: darkgrey;
+    }
+</style>
+
+<body>
+    <h1>Somador de numeros</h1>
+
+    <button onclick="botao()">Somador</button>
+
+    <script>
+        function botao() {
+            var n1 = prompt('Digite o Numero')
+            var n2 = prompt('Digite o Numero')
+
+            var soma = parseFloat(n1) + parseFloat(n2)
+
+            console.log(`o resultado da soma = ${soma}`)
+        }
+    </script>
+
+</body>
+
+</html>
